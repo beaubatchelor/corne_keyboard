@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
        KC_TAB, XXXXXXX,  KC_F1,  KC_F2,  KC_F3,   KC_F4,                       KC_KP_ASTERISK,  KC_7,    KC_8,    KC_9,   KC_KP_MINUS,  KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-LCTL_T(KC_ESC), XXXXXXX, KC_F5,  KC_F6,  KC_F7,   KC_F8,                       KC_KP_SLASH,    KC_4,    KC_5,    KC_6, KC_KP_PLUS, RCTL_T(KC_CALCULATOR),
+LCTL_T(KC_ESC), KC_CALCULATOR, KC_F5,  KC_F6,  KC_F7,   KC_F8,                       KC_KP_SLASH,    KC_4,    KC_5,    KC_6, KC_KP_PLUS, RCTL_T(KC_QUOT),
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    XXXXXXX, KC_F9,  KC_F10,  KC_F11,   KC_F12,                     KC_DOT,   KC_1,    KC_2,    KC_3, KC_KP_EQUAL_AS400,  KC_RSFT,
   //|--------+--------+--------+--------+--------+--------+--------|      |--------+--------+--------+--------+--------+--------+--------|
